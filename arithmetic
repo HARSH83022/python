@@ -1,0 +1,8 @@
+a = 3
+b = 2
+c= int(a)+int(b)
+d= int(a)-int(b)
+e= int(a)*int(b)
+print(c)
+print(d)
+print(e)
