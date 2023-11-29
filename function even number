@@ -1,0 +1,7 @@
+def even(num):
+    if num % 2 == 0:
+        return("number is even")
+    else:
+        return ("number is odd")
+num =int(input("enter="))
+print(even(num))
