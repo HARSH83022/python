@@ -1,0 +1,20 @@
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+dct = {}
+while True:
+    try:
+        num = int(input("Enter the number: "))
+        out = factorial(num)
+        print(f'Factorial of {num} is {out}')
+        dct[num] = out
+        print('Do you want to continue? (Y/N)')
+        choice = input()
+        if choice.upper() != "Y":
+            print(f'Your results: {dct}')
+            break
+    except ValueError:
+        print('Please enter a valid number.')
