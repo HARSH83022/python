@@ -1,0 +1,20 @@
+# def area_of_circle(r):
+#     a=3.14*r**2
+#     return a
+# def circum_of_circle(r):
+#     c=2*3.14*r
+#     return c
+
+# ##main code
+# radius=int(input('enter the radius'))
+# area = area_of_rect(radius)
+# circum = circum_of_circle(radius)
+
+# print(f'Area of the rectangle {area}')
+# print(f'Area of the rectangle {peri}')
+
+def area(r):
+    c=2*3.14*r
+    return c
+r=int(input('enter the area'))
+print(area{r})
