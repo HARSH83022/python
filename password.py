@@ -1,6 +1,8 @@
 # password validation
+#self doing
+
 import time
-password = 'rahul12!0'
+password = 'harsh12!0'
 
 while 1:
      user_pass = input('enter the password')
