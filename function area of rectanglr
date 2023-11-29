@@ -1,0 +1,24 @@
+# def area(l,b):
+#     c=l*b
+#     print(c)
+# area(2,3)
+# def perim(l,b):
+#     d=2(l+b)
+#     print(d)
+    
+# perim(2,5)    
+def area_of_rect(l,b):
+    a=l*b
+    return a
+def peri_of_rect(l,b):
+    c=2*(l+b)
+    return c
+
+##main code
+length =int(input('enter the length'))
+breadth = int(input('enter the breadth '))
+area = area_of_rect(length,breadth)
+peri = peri_of_rect(length,breadth)
+
+print(f'Area of the rectangle {area}')
+print(f'Area of the rectangle {peri}')
