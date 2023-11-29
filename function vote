@@ -1,0 +1,13 @@
+def vot_or_not(age):
+    if age >=18:
+    # print(f'you can vote ')
+    return true
+    else:
+        # print(f'you can vote ')
+    return false
+        
+    return a
+# main code
+age =3
+re = vot_of_not(age)
+print{re}
