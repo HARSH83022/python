@@ -1,0 +1,10 @@
+def display_info(name, rolln, sec, clg, **dct):
+    data = f'''
+    Name      : {name}
+    Section   : {sec}
+    Roll no.  : {rolln}
+    College   : {clg}'''
+    return data
+
+out = display_info(name = 'Saturo Freaking Gojo', rolln = 1, clg = 'Jujutsu High', sec = 'CD', mobile = 7845296387)
+print(out)
