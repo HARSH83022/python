@@ -1,0 +1,3 @@
+dct = {1: 'One', 2: 'Two'}
+out = dct.get(5)
+print(out)
