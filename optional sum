@@ -1,0 +1,14 @@
+def optional_sum(*obj, op= 'Add'):
+    if op == 'Add':
+        s = 0
+        for i in obj:
+            s += i
+        return s
+    elif op == 'Mul':
+        s = 1
+        for i in obj:
+            s *= i
+        return s
+
+out = optional_sum(2, 5, 6, op = 'Mul')
+print(out)
