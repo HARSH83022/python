@@ -1,0 +1,10 @@
+def display_info(name, rolln, sec = 'CD', clg = 'GLA'):
+    data = f'''
+    Name      : {name}
+    Section   : {sec}
+    Roll no.  : {rolln}
+    College   : {clg}'''
+    return data
+
+out = display_info('Akaza', 1)
+print(out)
