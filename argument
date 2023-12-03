@@ -1,0 +1,4 @@
+# 1. No Return No Arguments
+def greet():
+    print("My name is harsh")
+greet()
