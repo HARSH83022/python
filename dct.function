@@ -1,0 +1,10 @@
+def display_info(**dct):
+    data = f'''
+    Name      : {dct.get('name')}
+    Section   : {dct.get('sec')}
+    Roll no.  : {dct.get('rolln')}
+    College   : {dct.get('clg')}'''
+    return data
+
+out = display_info(name = 'Yuji Itadori')
+print(out)
