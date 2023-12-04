@@ -1,0 +1,10 @@
+# Gully Boy Boht Hard Question
+st = input()
+node = int(input())
+rp = int(input())
+
+re = st[node:] + st[:node]  # complete string with circular shift
+re = re.replace(' ', '')  # remove spaces
+re = re * rp  # repeat string
+
+print(*re)
