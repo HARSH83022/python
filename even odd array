@@ -1,0 +1,6 @@
+# Even Odd Array
+n = int(input("Enter the number of elements in the array: "))
+arr = list(map(int, input().split()))
+
+even_odd_list = [i%2 for i in arr]
+print(*even_odd_list)
