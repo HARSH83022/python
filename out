@@ -1,0 +1,2 @@
+out = chr(67895)
+print(out)
