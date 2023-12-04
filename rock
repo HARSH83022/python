@@ -1,0 +1,10 @@
+# Rock,scissors,Paper Game
+name1 = input()
+name2 = input()
+choice1 = input()
+choice2 = input()
+choices = ['Rock', 'Paper', 'Scissor']
+if choice1  == 'Rock' and choice2 == 'Scissor' or choice1  == 'Paper' and choice2 == 'Rock' or choice1  == 'Scissor' and choice2 == 'Paper':
+    print(name1, 'Win')
+else:
+    print(name2, 'Win')
