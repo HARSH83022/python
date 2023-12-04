@@ -1,0 +1,10 @@
+# list of anagram
+lst1 = ['blue', 'silver', 'tan', 'ruby', 'teal']
+lst2 = ['bore', 'lube', 'vets', 'late', 'taco']
+
+def anagram(s1, s2):
+    return sorted(s1) == sorted(s2)
+
+lst = [(i, j) for i in lst1 for j in lst2 if anagram(i, j)]
+print(lst)
+print(len(lst))
