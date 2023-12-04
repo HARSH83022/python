@@ -1,0 +1,9 @@
+# Adjacent characters
+st = input()
+s = ''
+if len(st) % 2 == 0:
+    for i in range(0, len(st), 2):
+        s += st[i + 1] + st[i]
+    print(s)
+else:
+  print('Odd length string')
