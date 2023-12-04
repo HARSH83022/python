@@ -1,0 +1,14 @@
+# badminton tournaments series
+# ravi,kamal,joya,lalit,joya,shalini,karati,joya,kamal
+# joya
+lst = input().split(',')
+print(lst)
+
+counter_lst = [(i, lst.count(i)) for i in set(lst)]
+print(counter_lst)
+
+counter_lst.sort()
+counter_lst.sort(key=lambda x: x[1], reverse=True)
+print(counter_lst)
+
+print(counter_lst[0][0])
