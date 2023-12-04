@@ -1,0 +1,8 @@
+# Positive Integer Pairs
+P = int(input())
+X = int(input())
+
+for i in range( P//2):
+    j = P - i
+    if i ^ j == X:
+        print(i, j)
