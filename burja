@@ -1,0 +1,6 @@
+# Binary Burj Khalifa
+n = int(input())
+w = len(bin(n)) - 2
+for i in range(n+1):
+    d = bin(i)[2:]
+    print(f'{d:>{w}}')
