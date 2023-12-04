@@ -1,0 +1,10 @@
+# Max is Better
+t = int(input())
+d = 0
+for _ in range(t):
+    n = int(input())
+    lst = list(map(int, input().split()))
+    for i in range(n-1):
+        t2 = abs(lst[i] - lst[i+1])
+        d = max(t2, d)
+    print(d)
