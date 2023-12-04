@@ -1,0 +1,5 @@
+# List String Title
+lst = eval(input('Enter the list '))
+print(lst)
+lst = [i.istitle() for i in lst]
+print(lst)
