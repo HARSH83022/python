@@ -1,0 +1,8 @@
+n = int(input())
+scores = list(map(int, input().split()))
+
+unique_scores = sorted(set(scores), reverse=True)
+
+if len(unique_scores) == 1:
+    print("There is no runner-up score.")
+else:
